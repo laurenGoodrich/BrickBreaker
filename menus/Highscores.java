@@ -18,7 +18,7 @@ import javax.swing.JLayeredPane;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 
-public class Highscores extends JLayeredPane implements Serializable {
+public class Highscores extends JLayeredPane {
 	
 	private String list[];
 	ArrayList<Player> highScore;
